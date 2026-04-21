@@ -1,0 +1,402 @@
+{
+  "AFIB": {
+    "total_occurrences": 9802,
+    "unique_codes": 2,
+    "codes": {
+      "164890007": {
+        "count": 8031,
+        "name": "Atrial Flutter"
+      },
+      "164889003": {
+        "count": 1771,
+        "name": "Atrial Fibrillation"
+      }
+    }
+  },
+  "GSVT": {
+    "total_occurrences": 53375,
+    "unique_codes": 90,
+    "codes": {
+      "39732003": {
+        "count": 1545,
+        "name": "Axis left shift"
+      },
+      "251146004": {
+        "count": 1040,
+        "name": "lower voltage QRS in all lead"
+      },
+      "164934002": {
+        "count": 7043,
+        "name": "T wave Change"
+      },
+      "59931005": {
+        "count": 2877,
+        "name": "T wave opposite"
+      },
+      "164917005": {
+        "count": 1063,
+        "name": "abnormal Q wave"
+      },
+      "365413008": {
+        "count": 638,
+        "name": ""
+      },
+      "55930002": {
+        "count": 4232,
+        "name": ""
+      },
+      "55827005": {
+        "count": 5401,
+        "name": ""
+      },
+      "164873001": {
+        "count": 647,
+        "name": "left ventricle hypertrophy"
+      },
+      "111975006": {
+        "count": 351,
+        "name": "QT interval extension"
+      },
+      "429622005": {
+        "count": 1668,
+        "name": "ST drop down"
+      },
+      "49578007": {
+        "count": 23,
+        "name": ""
+      },
+      "427084000": {
+        "count": 7254,
+        "name": "Sinus Tachycardia"
+      },
+      "251223006": {
+        "count": 215,
+        "name": ""
+      },
+      "427393009": {
+        "count": 2547,
+        "name": "Sinus Irregularity"
+      },
+      "164912004": {
+        "count": 142,
+        "name": "P wave Change"
+      },
+      "425856008": {
+        "count": 109,
+        "name": ""
+      },
+      "13640000": {
+        "count": 116,
+        "name": "ventricular fusion wave"
+      },
+      "54329005": {
+        "count": 57,
+        "name": ""
+      },
+      "164865005": {
+        "count": 123,
+        "name": "Myocardial infraction in the side wall"
+      },
+      "50799005": {
+        "count": 59,
+        "name": ""
+      },
+      "164930006": {
+        "count": 801,
+        "name": "ST extension"
+      },
+      "426761007": {
+        "count": 724,
+        "name": "Supraventricular Tachycardia"
+      },
+      "10370003": {
+        "count": 1182,
+        "name": ""
+      },
+      "427172004": {
+        "count": 1088,
+        "name": ""
+      },
+      "164947007": {
+        "count": 52,
+        "name": "PR interval extension"
+      },
+      "81898007": {
+        "count": 96,
+        "name": ""
+      },
+      "75532003": {
+        "count": 56,
+        "name": "ventricular escape beat"
+      },
+      "445118002": {
+        "count": 378,
+        "name": ""
+      },
+      "251205003": {
+        "count": 106,
+        "name": ""
+      },
+      "5609005": {
+        "count": 33,
+        "name": ""
+      },
+      "57054005": {
+        "count": 49,
+        "name": ""
+      },
+      "164937009": {
+        "count": 134,
+        "name": "U wave"
+      },
+      "446358003": {
+        "count": 36,
+        "name": "right atrial hypertrophy"
+      },
+      "233897008": {
+        "count": 26,
+        "name": "Atrioventricular Reentrant Tachycardia"
+      },
+      "428417006": {
+        "count": 366,
+        "name": "Early repolarization of the ventricles"
+      },
+      "74390002": {
+        "count": 72,
+        "name": "WPW"
+      },
+      "61277005": {
+        "count": 14,
+        "name": ""
+      },
+      "426664006": {
+        "count": 12,
+        "name": ""
+      },
+      "59118001": {
+        "count": 646,
+        "name": "right bundle branch block"
+      },
+      "29320008": {
+        "count": 137,
+        "name": ""
+      },
+      "63593006": {
+        "count": 9,
+        "name": ""
+      },
+      "426648003": {
+        "count": 24,
+        "name": ""
+      },
+      "47665007": {
+        "count": 850,
+        "name": "Axis right shift"
+      },
+      "251164006": {
+        "count": 11,
+        "name": "junctional premature beat"
+      },
+      "164909002": {
+        "count": 240,
+        "name": "left front bundle branch block"
+      },
+      "446813000": {
+        "count": 8,
+        "name": ""
+      },
+      "89792004": {
+        "count": 110,
+        "name": "right ventricle hypertrophy"
+      },
+      "6374002": {
+        "count": 383,
+        "name": ""
+      },
+      "67751000119106": {
+        "count": 36,
+        "name": ""
+      },
+      "418818005": {
+        "count": 5,
+        "name": ""
+      },
+      "251198002": {
+        "count": 76,
+        "name": "colockwise rotation"
+      },
+      "251166008": {
+        "count": 16,
+        "name": ""
+      },
+      "17338001": {
+        "count": 293,
+        "name": "ventricular premature beat"
+      },
+      "251199005": {
+        "count": 162,
+        "name": "countercolockwise rotation"
+      },
+      "713422000": {
+        "count": 297,
+        "name": "Atrial Tachycardia"
+      },
+      "284470004": {
+        "count": 1312,
+        "name": "atrial premature beats"
+      },
+      "698252002": {
+        "count": 771,
+        "name": "Intraventricular block"
+      },
+      "195042002": {
+        "count": 66,
+        "name": "2 degree atrioventricular block"
+      },
+      "713426002": {
+        "count": 246,
+        "name": ""
+      },
+      "733534002": {
+        "count": 212,
+        "name": ""
+      },
+      "713427006": {
+        "count": 1094,
+        "name": ""
+      },
+      "164931005": {
+        "count": 176,
+        "name": "ST tilt up"
+      },
+      "270492004": {
+        "count": 1140,
+        "name": "1 degree atrioventricular block"
+      },
+      "27885002": {
+        "count": 76,
+        "name": "3 degree atrioventricular block"
+      },
+      "195060002": {
+        "count": 12,
+        "name": "ventricular preexcitation"
+      },
+      "426995002": {
+        "count": 75,
+        "name": "junctional escape beat"
+      },
+      "61721007": {
+        "count": 652,
+        "name": ""
+      },
+      "426627000": {
+        "count": 7,
+        "name": ""
+      },
+      "106068003": {
+        "count": 215,
+        "name": ""
+      },
+      "233917008": {
+        "count": 242,
+        "name": "atrioventricular block"
+      },
+      "164896001": {
+        "count": 59,
+        "name": ""
+      },
+      "54016002": {
+        "count": 31,
+        "name": "2 degree atrioventricular block(Type one)"
+      },
+      "251120003": {
+        "count": 6,
+        "name": ""
+      },
+      "251170000": {
+        "count": 62,
+        "name": ""
+      },
+      "65778007": {
+        "count": 5,
+        "name": ""
+      },
+      "426183003": {
+        "count": 7,
+        "name": ""
+      },
+      "77867006": {
+        "count": 2,
+        "name": ""
+      },
+      "251187003": {
+        "count": 17,
+        "name": ""
+      },
+      "111288001": {
+        "count": 7,
+        "name": ""
+      },
+      "428750005": {
+        "count": 1157,
+        "name": "ST-T Change"
+      },
+      "251180001": {
+        "count": 8,
+        "name": "ventricular escape trigeminy"
+      },
+      "251173003": {
+        "count": 3,
+        "name": "atrial bigeminy"
+      },
+      "67741000119109": {
+        "count": 1,
+        "name": ""
+      },
+      "164942001": {
+        "count": 3,
+        "name": "fQRS Wave"
+      },
+      "445211001": {
+        "count": 5,
+        "name": ""
+      },
+      "233892002": {
+        "count": 16,
+        "name": ""
+      },
+      "11157007": {
+        "count": 3,
+        "name": "ventricular bigeminy"
+      },
+      "17366009": {
+        "count": 7,
+        "name": ""
+      },
+      "195101003": {
+        "count": 2,
+        "name": "Sinus Atrium to Atrial Wandering Rhythm"
+      }
+    }
+  },
+  "SB": {
+    "total_occurrences": 16559,
+    "unique_codes": 1,
+    "codes": {
+      "426177001": {
+        "count": 16559,
+        "name": "Sinus Bradycardia"
+      }
+    }
+  },
+  "SR": {
+    "total_occurrences": 8125,
+    "unique_codes": 1,
+    "codes": {
+      "426783006": {
+        "count": 8125,
+        "name": "Sinus Rhythm"
+      }
+    }
+  }
+}

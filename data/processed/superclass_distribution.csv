@@ -1,0 +1,5 @@
+superclass,total_occurrences,pct_of_occurrences,pct_of_records,class_weight
+AFIB,9802,11.16,21.73,2.2409
+GSVT,53375,60.75,118.33,0.4115
+SB,16559,18.85,36.71,1.3265
+SR,8125,9.25,18.01,2.7034

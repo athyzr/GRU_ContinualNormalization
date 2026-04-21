@@ -1,0 +1,61 @@
+{
+  "superclass_map": {
+    "AFIB": [],
+    "GSVT": [
+      {
+        "snomed_code": "39732003",
+        "acronym": "ALS",
+        "name": "Axis left shift"
+      },
+      {
+        "snomed_code": "10370003",
+        "acronym": "Code-10370003",
+        "name": ""
+      },
+      {
+        "snomed_code": "164934002",
+        "acronym": "TWC",
+        "name": "T wave Change"
+      },
+      {
+        "snomed_code": "427084000",
+        "acronym": "ST",
+        "name": "Sinus Tachycardia"
+      },
+      {
+        "snomed_code": "59931005",
+        "acronym": "TWO",
+        "name": "T wave opposite"
+      },
+      {
+        "snomed_code": "55930002",
+        "acronym": "Code-55930002",
+        "name": ""
+      },
+      {
+        "snomed_code": "55827005",
+        "acronym": "Code-55827005",
+        "name": ""
+      },
+      {
+        "snomed_code": "111975006",
+        "acronym": "QTIE",
+        "name": "QT interval extension"
+      }
+    ],
+    "SB": [
+      {
+        "snomed_code": "426177001",
+        "acronym": "SB",
+        "name": "Sinus Bradycardia"
+      }
+    ],
+    "SR": [
+      {
+        "snomed_code": "426783006",
+        "acronym": "SR",
+        "name": "Sinus Rhythm"
+      }
+    ]
+  }
+}
