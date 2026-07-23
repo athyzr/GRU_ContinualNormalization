@@ -2,6 +2,19 @@
 
 Repository ini berisi implementasi penelitian klasifikasi sinyal Electrocardiogram (ECG) menggunakan **Gated Recurrent Unit (GRU)** dengan **Continual Normalization (CN)** dan pendekatan **Autoencoder**. Model dikembangkan menggunakan dataset Chapman-Shaoxing ECG untuk mengklasifikasikan empat jenis irama jantung.
 
+## 🧠 Arsitektur Model
+
+Model menggunakan pendekatan **Two-Stage Learning**, yaitu:
+
+### 1. Pretraining
+- GRU Autoencoder
+- Unsupervised Learning untuk mempelajari representasi fitur sinyal ECG
+
+### 2. Fine-tuning
+- Encoder hasil pretraining digunakan sebagai **feature extractor**
+- Menerapkan **Continual Normalization (CN)**
+- Fully Connected Layer untuk melakukan klasifikasi empat kelas aritmia
+
 ## 🌐 Live Demo
 
 Coba aplikasi secara langsung melalui GitHub Pages:
