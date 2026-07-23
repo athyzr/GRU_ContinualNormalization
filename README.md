@@ -7,6 +7,7 @@ Repository ini berisi implementasi penelitian klasifikasi sinyal Electrocardiogr
 Coba aplikasi secara langsung melalui GitHub Pages:
 
 https://athyzr.github.io/GRU_ContinualNormalization/
+> **Note:** Live demo hanya menampilkan simulasi hasil prediksi. Untuk menjalankan inferensi menggunakan model GRU pada file ECG asli, silakan menjalankan proyek secara lokal.
 
 ## 📊 Hasil Penelitian
 
