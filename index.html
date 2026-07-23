@@ -669,6 +669,31 @@ function showResultFromBackend(inference) {
     CLASS_NAMES.forEach(c => { const el = document.getElementById('pf-'+c); if(el) el.style.width = ((probs[c]||0)*100)+'%'; });
   });
 }
+
+  function showResult() {
+  const probs = simulateProbs();
+  let maxP = 0, pred = 'AFIB';
+  CLASS_NAMES.forEach(c => { if(probs[c] > maxP) { maxP = probs[c]; pred = c; } });
+
+  document.getElementById('res-source').textContent = '⚠ Mode simulasi (Data Default)';
+  const pc = document.getElementById('pred-card');
+  pc.style.background = CLASS_BG[pred]; pc.style.borderColor = CLASS_BORDER[pred];
+  document.getElementById('res-cls').textContent = pred;
+  document.getElementById('res-cls').style.color = CLASS_CLR[pred];
+  document.getElementById('res-full').textContent = CLASS_FULL[pred];
+
+  const list = document.getElementById('prob-list'); list.innerHTML = '';
+  CLASS_NAMES.forEach(c => {
+    const p = probs[c] || 0;
+    const row = document.createElement('div'); row.className = 'prob-row';
+    row.innerHTML = `<span class="prob-cls">${c}</span><div class="prob-track"><div class="prob-fill" id="pf-${c}" style="background:${CLASS_CLR[c]}"></div></div><span class="prob-pct">${(p*100).toFixed(1)}%</span>`;
+    list.appendChild(row);
+  });
+  requestAnimationFrame(() => {
+    CLASS_NAMES.forEach(c => { const el = document.getElementById('pf-'+c); if(el) el.style.width = ((probs[c]||0)*100)+'%'; });
+  });
+}
+
 const DX_COLORS = ['var(--red)', 'var(--yellow)', 'var(--purple)', 'var(--accent)', 'var(--green)'];
 
 function updatePatientInfo(meta, signal) {
