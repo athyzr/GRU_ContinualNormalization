@@ -24,6 +24,15 @@ scripts/           # Script pelatihan model
 utils/             # Fungsi preprocessing dan evaluasi
 data/processed/    # Dataset yang telah diproses
 ```
+## 📥 Dataset
+
+Repository ini tidak menyertakan dataset mentah karena ukurannya cukup besar.
+
+Dataset dapat diunduh melalui PhysioNet:
+
+https://physionet.org/content/ecg-arrhythmia/1.0.0/
+
+Setelah mengunduh, letakkan dataset pada folder `data/raw/` sebelum menjalankan proses preprocessing dan pelatihan model.
 
 ## 🛠️ Cara Menjalankan
 
