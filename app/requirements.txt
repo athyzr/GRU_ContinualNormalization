@@ -1,0 +1,6 @@
+torch
+numpy
+scipy
+flask
+flask-cors
+gunicorn
